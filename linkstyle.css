@@ -23,6 +23,7 @@ a.hl:link, a.hl:visited {
     padding: 15px;
     color: black;
     text-decoration: none; 
+    
 }
 
 a.hl:hover,a.hl:active {
@@ -46,7 +47,7 @@ div.NewsFrame {
     width: 375px;
     float: left;
     text-align: center;
-    border: 1px solid #000000;
+    border: 1px solid #ccc2c2;
     min-height: 460px;
 }
 
@@ -74,6 +75,38 @@ div.NewsFrame {
         font-weight: normal;
         width: auto;
         margin: 5px;
+    }
+
+div.content {
+    text-align: left;
+    padding: 10px 10px;
+    line-height: 1.6;
+    font-family: KhmerOS_SRFont;
+    font-size: 18px;
+}
+
+div.title {
+    display: block;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 28px;
+}
+
+div.CollaborationFrame {
+    position: static;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 275px;
+    float: left;
+    text-align: center;
+    border: 1px solid #cccccc;
+    min-height: 300px;
+}
+    div.CollaborationFrame img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
 footer {
