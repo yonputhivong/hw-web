@@ -18,7 +18,7 @@ header {
 
 a.hl:link, a.hl:visited {
     display: inline-block;
-    width: 100px;
+    width: auto;
     background-color: #f065ad;
     padding: 15px;
     color: black;
@@ -47,7 +47,7 @@ div.NewsFrame {
     float: left;
     text-align: center;
     border: 1px solid #000000;
-    min-height: 400px;
+    min-height: 460px;
 }
 
         div.NewsFrame img {
